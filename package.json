@@ -1,0 +1,26 @@
+{
+  "name": "@atomistics/lennard-jones-pairwise-js",
+  "version": "1.0.0",
+  "description": "Pairwise lennard-jones potential in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-dot",
+    "format": "prettier --write index.js test.js",
+    "lint": "prettier -l index.js test.js"
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  },
+  "keywords": [
+    "chemistry",
+    "atomistics",
+    "lennard-jones"
+  ],
+  "author": "Rye Terrell",
+  "license": "Unlicense",
+  "devDependencies": {
+    "prettier": "^1.14.2",
+    "tap-dot": "^2.0.0",
+    "tape": "^4.9.1"
+  }
+}
